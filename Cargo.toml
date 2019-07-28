@@ -12,5 +12,7 @@ cortex-m-rt = { version = "0.6.9", features = ["device"] }
 cortex-m-semihosting = { version = "0.3.3", features = ["inline-asm"] }
 panic-semihosting = { version = "0.5", features = ["inline-asm"] }
 
+embedded-hal = "0.2"
+
 cortex-m-rtfm = { version = "0.4", features = ["timer-queue"] }
-stm32f1xx-hal = { version = "0.3", features = ["rt", "stm32f103"] }
+stm32f3xx-hal = { version = "0.2", features = ["rt", "stm32f303"] }
